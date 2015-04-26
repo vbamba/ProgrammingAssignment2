@@ -3,6 +3,16 @@
 # The matrix is assumed to be inversible. It returns a list of four helper functions to get & set a 
 # matrix, and to get and set its cached inverse
 # The second function cacheSolve computes the inverse of a matrix and returns its value
+# Sample code to test 
+# source("cacheMatrix.R")
+# c=rbind(c(1, -1/4), c(-1/4, 1))  
+# a <- makeCacheMatrix(c)
+# a$get()
+# s <- cacheSolve(a)
+# s
+# a$set(s)
+# a$get()
+
 
 
 ## This function creates a special "matrix" object that can cache its inverse. The function 
